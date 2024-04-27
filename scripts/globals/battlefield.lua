@@ -144,6 +144,8 @@ xi.battlefield.id =
     V_FORMATION                                = 114,
     AVIAN_APOSTATES                            = 115,
     BEYOND_INFINITY_BALGAS_DAIS                = 116,
+    AMAN_TROVE_MARS_BALGAS_DAIS                = 120,
+    AMAN_TROVE_VENUS_BALGAS_DAIS               = 121,
     TEMPLE_OF_UGGALEPIH                        = 128,
     JUNGLE_BOOGYMEN                            = 129,
     AMPHIBIAN_ASSAULT                          = 130,
@@ -883,6 +885,9 @@ end
 function Battlefield:onEventFinishBattlefield(player, csid, option, npc)
 end
 
+function Battlefield:battlefieldSetup(battlefield)
+end
+
 function Battlefield:onBattlefieldInitialise(battlefield)
     if self.loot and #self.loot > 0 then
         battlefield:setLocalVar('loot', 1)
@@ -894,6 +899,8 @@ function Battlefield:onBattlefieldInitialise(battlefield)
     for mobId, path in pairs(self.paths) do
         GetMobByID(mobId):pathThrough(path, xi.path.flag.PATROL)
     end
+
+    self:battlefieldSetup(battlefield)
 end
 
 function Battlefield:onBattlefieldTick(battlefield, tick)

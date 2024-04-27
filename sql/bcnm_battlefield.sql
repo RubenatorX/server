@@ -537,6 +537,12 @@ INSERT INTO `bcnm_battlefield` VALUES (110,3,17375405,3);
 INSERT INTO `bcnm_battlefield` VALUES (116,1,17375491,3); -- beyond_infinity (Balgas Dais)
 INSERT INTO `bcnm_battlefield` VALUES (116,2,17375492,3); -- beyond_infinity (Balgas Dais)
 INSERT INTO `bcnm_battlefield` VALUES (116,3,17375493,3); -- beyond_infinity (Balgas Dais)
+INSERT INTO `bcnm_battlefield` VALUES (120,1,1,0); -- A.M.A.N. Trove (Mars) - Balga's Dais (Dummy Entries only, handled in Lua)
+INSERT INTO `bcnm_battlefield` VALUES (120,2,1,0);
+INSERT INTO `bcnm_battlefield` VALUES (120,3,1,0);
+INSERT INTO `bcnm_battlefield` VALUES (121,1,1,0); -- A.M.A.N. Trove (Venus) - Balga's Dais (Dummy Entries only, handled in Lua)
+INSERT INTO `bcnm_battlefield` VALUES (121,2,1,0);
+INSERT INTO `bcnm_battlefield` VALUES (121,3,1,0);
 INSERT INTO `bcnm_battlefield` VALUES (128,1,17444865,3); -- temple_of_uggalepih
 INSERT INTO `bcnm_battlefield` VALUES (128,1,17444866,3);
 INSERT INTO `bcnm_battlefield` VALUES (128,1,17444867,3);

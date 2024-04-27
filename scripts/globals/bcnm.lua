@@ -319,8 +319,8 @@ local battlefields =
     --  { 21,    ?, 4062 },   -- *Steamed Sprouts (SKC10)
     --  { 22,    ?, 4063 },   -- *Divine Punishers (SKC20)
     --  { 23,    ?,    0 },   -- A Feast Most Dire (Quest)
-    --  { 24,    ?,    0 },   -- A.M.A.N. Trove (Mars)
-    --  { 25,    ?,    0 },   -- A.M.A.N. Trove (Venus)
+    --  { 24,  120,    0 },   -- A.M.A.N. Trove (Mars)
+    --  { 25,  121,    0 },   -- A.M.A.N. Trove (Venus)
     --  { 26,    ?,    0 },   -- Inv. from Kupipi
     --  { 27,    ?,    0 },   -- Inv. from Kupipi and Co.
     },

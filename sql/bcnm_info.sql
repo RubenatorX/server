@@ -110,6 +110,8 @@ INSERT INTO `bcnm_info` VALUES (113,146,'moa_constrictors','nobody',0,1800,1800,
 INSERT INTO `bcnm_info` VALUES (114,146,'v_formation','nobody',0,900,900,0,3,114,15,0);
 INSERT INTO `bcnm_info` VALUES (115,146,'avian_apostates','nobody',0,1800,1800,0,6,115,15,0);
 INSERT INTO `bcnm_info` VALUES (116,146,'beyond_infinity','nobody',0,600,600,99,6,0,5,0);
+INSERT INTO `bcnm_info` VALUES (120,146,'aman_trove_mars_balgas_dais','nobody',0,1800,1800,99,6,0,5,0);
+INSERT INTO `bcnm_info` VALUES (121,146,'aman_trove_venus_balgas_dais','nobody',0,1800,1800,99,6,0,5,0);
 INSERT INTO `bcnm_info` VALUES (128,163,'temple_of_uggalepih','nobody',0,1800,1800,75,6,0,5,1);
 INSERT INTO `bcnm_info` VALUES (129,163,'jungle_boogymen','nobody',0,1800,1800,60,6,129,15,0);
 INSERT INTO `bcnm_info` VALUES (130,163,'amphibian_assault','nobody',0,1800,1800,60,6,130,15,0);
